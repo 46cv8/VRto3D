@@ -165,7 +165,7 @@ vr::EVRInitError MockControllerDeviceDriver::Activate( uint32_t unObjectId )
     }
     else
     {
-        vrp->SetFloatProperty(container, vr::Prop_DashboardScale_Float, 0.0f);
+        vrp->SetFloatProperty(container, vr::Prop_DashboardScale_Float, 1.0f);
     }
 
     // Set the chaperone JSON property
