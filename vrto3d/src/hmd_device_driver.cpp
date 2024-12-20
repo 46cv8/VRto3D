@@ -161,11 +161,11 @@ vr::EVRInitError MockControllerDeviceDriver::Activate( uint32_t unObjectId )
     vrp->SetBoolProperty( container, vr::Prop_HasDriverDirectModeComponent_Bool, false);
     if (stereo_display_component_->GetConfig().depth_gauge)
     {
-        vrp->SetFloatProperty(container, vr::Prop_DashboardScale_Float, 1.0f);
+        vrp->SetFloatProperty(container, vr::Prop_DashboardScale_Float, 2.0f);
     }
     else
     {
-        vrp->SetFloatProperty(container, vr::Prop_DashboardScale_Float, 1.0f);
+        vrp->SetFloatProperty(container, vr::Prop_DashboardScale_Float, 2.0f);
     }
 
     // Set the chaperone JSON property
